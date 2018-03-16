@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.3"
+
+    defaultConfig {
+        applicationId "com.cameraRotation"
+        minSdkVersion 19
+        targetSdkVersion 22
+
+        // Enabling multidex support.
+        //multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    //compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:appcompat-v7:26.+'
+    //compile 'com.android.support:multidex:1.0.1'
+}

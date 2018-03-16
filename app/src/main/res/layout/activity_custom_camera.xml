@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:id="@+id/hiddenSurfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_Flashlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Flash Light"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/lin_flash"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_margin="15dp"
+            android:background="#10000000"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_flash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/flash_off_white" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

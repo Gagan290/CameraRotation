@@ -1,0 +1,173 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:53:9-61:20
+	android:grantUriPermissions
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:57:13-47
+	android:authorities
+		INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:55:13-60
+	android:exported
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:54:13-67
+manifest
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:2:1-64:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\29f1487f839a63f324536bbfd44dab91\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\81e11d2a3590960376b78091b07d431c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\d71b4526131d0aa9541bc323c90593a2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\f659d168cba5ec65cd0024f10ac37178\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\90a43736b9a1b3ba5a5bbdde1fc262b6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\1a7c010a2d0b209bdce85b46748d43ba\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1e42f21b5dcb85d74fc9488528c42785\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\f2fcd0eb0d7ec0454a9eccc5ea6b3abd\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:12:22-68
+uses-feature#android.hardware.camera
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:15:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:19:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:20:19-63
+uses-permission#android.permission.CAMERA
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:23:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:24:5-69
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:24:22-66
+application
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:27:5-62:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\29f1487f839a63f324536bbfd44dab91\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\29f1487f839a63f324536bbfd44dab91\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\81e11d2a3590960376b78091b07d431c\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\81e11d2a3590960376b78091b07d431c\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\d71b4526131d0aa9541bc323c90593a2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\d71b4526131d0aa9541bc323c90593a2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\f659d168cba5ec65cd0024f10ac37178\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\f659d168cba5ec65cd0024f10ac37178\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\90a43736b9a1b3ba5a5bbdde1fc262b6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\90a43736b9a1b3ba5a5bbdde1fc262b6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\1a7c010a2d0b209bdce85b46748d43ba\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\1a7c010a2d0b209bdce85b46748d43ba\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1e42f21b5dcb85d74fc9488528c42785\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1e42f21b5dcb85d74fc9488528c42785\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\f2fcd0eb0d7ec0454a9eccc5ea6b3abd\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\f2fcd0eb0d7ec0454a9eccc5ea6b3abd\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:30:9-41
+	android:icon
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:29:9-45
+	android:allowBackup
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:31:9-40
+activity#com.cameraRotation.activity.MainActivity
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:33:9-43:20
+	android:screenOrientation
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:37:13-49
+	android:label
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:36:13-45
+	android:configChanges
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:35:13-72
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:34:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:41:27-74
+activity#com.customCamera.CustomCameraActivity
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:45:19-71
+uses-sdk
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\29f1487f839a63f324536bbfd44dab91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\29f1487f839a63f324536bbfd44dab91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\81e11d2a3590960376b78091b07d431c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\81e11d2a3590960376b78091b07d431c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\d71b4526131d0aa9541bc323c90593a2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\d71b4526131d0aa9541bc323c90593a2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\f659d168cba5ec65cd0024f10ac37178\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\f659d168cba5ec65cd0024f10ac37178\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\90a43736b9a1b3ba5a5bbdde1fc262b6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\90a43736b9a1b3ba5a5bbdde1fc262b6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\1a7c010a2d0b209bdce85b46748d43ba\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\1a7c010a2d0b209bdce85b46748d43ba\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1e42f21b5dcb85d74fc9488528c42785\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1e42f21b5dcb85d74fc9488528c42785\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\f2fcd0eb0d7ec0454a9eccc5ea6b3abd\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\f2fcd0eb0d7ec0454a9eccc5ea6b3abd\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:58:13-60:58
+	android:resource
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:60:17-55
+	android:name
+		ADDED from D:\Gagan\Android_Net_Download\Camera\CameraRotation\app\src\main\AndroidManifest.xml:59:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\29f1487f839a63f324536bbfd44dab91\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\29f1487f839a63f324536bbfd44dab91\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\81e11d2a3590960376b78091b07d431c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\81e11d2a3590960376b78091b07d431c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\d71b4526131d0aa9541bc323c90593a2\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\d71b4526131d0aa9541bc323c90593a2\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\f659d168cba5ec65cd0024f10ac37178\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\f659d168cba5ec65cd0024f10ac37178\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\90a43736b9a1b3ba5a5bbdde1fc262b6\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\90a43736b9a1b3ba5a5bbdde1fc262b6\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\1a7c010a2d0b209bdce85b46748d43ba\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\1a7c010a2d0b209bdce85b46748d43ba\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1e42f21b5dcb85d74fc9488528c42785\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1e42f21b5dcb85d74fc9488528c42785\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\f2fcd0eb0d7ec0454a9eccc5ea6b3abd\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\f2fcd0eb0d7ec0454a9eccc5ea6b3abd\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Gagan Goel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\bd593ac4c7da1a2be885a6ec5d5b4b2a\AndroidManifest.xml:26:9-47
